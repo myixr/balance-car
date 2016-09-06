@@ -1,0 +1,10 @@
+prefix=/Users/lmy/Workspace/balance-car/app/addons/libmodbus-3.0.6/build/install-dir
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: modbus
+Description: Modbus library
+Version: 3.0.6
+Libs: -L${libdir} -lmodbus
+Cflags: -I${includedir}/modbus
